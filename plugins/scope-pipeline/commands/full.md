@@ -37,15 +37,15 @@ The pipeline creates a complete planning package:
 └── tasks.md         # Implementation tasks
 ```
 
-After completion, run `/scope:exec {feature-name}` to begin implementation.
+After completion, run `/scope-pipeline:exec {feature-name}` to begin implementation.
 
 **Individual commands** (if you prefer to run phases separately):
-- `/scope:plan` - Just the implementation plan
-- `/scope:db` - Just the database schema
-- `/scope:api` - Just the API specification
-- `/scope:ui` - Just the wireframes
-- `/scope:edge` - Just the edge cases
-- `/scope:test` - Just the test plan
-- `/scope:task` - Just the task breakdown
+- `/scope-pipeline:plan` - Just the implementation plan
+- `/scope-pipeline:db` - Just the database schema
+- `/scope-pipeline:api` - Just the API specification
+- `/scope-pipeline:ui` - Just the wireframes
+- `/scope-pipeline:edge` - Just the edge cases
+- `/scope-pipeline:test` - Just the test plan
+- `/scope-pipeline:task` - Just the task breakdown
 
 $ARGUMENTS

@@ -18,7 +18,7 @@ This agent will:
 
 Use this command when:
 
-- You have completed the `/scope:plan` phase and want to visualize the UI
+- You have completed the `/scope-pipeline:plan` phase and want to visualize the UI
 - You need to review layouts before creating implementation tasks
 - You want a visual reference for developers during implementation
 - You need to validate UI decisions before coding begins
@@ -33,9 +33,9 @@ The agent creates comprehensive wireframe documents using ASCII art that clearly
 The agent adapts wireframes to match the project's UI framework and component library patterns.
 
 **Recommended workflow**:
-1. `/scope:plan` - Create the implementation plan
-2. `/scope:ui` - Visualize the UI/UX layouts
-3. `/scope:task` - Break down into implementation tasks
-4. `/scope:exec` - Execute the implementation
+1. `/scope-pipeline:plan` - Create the implementation plan
+2. `/scope-pipeline:ui` - Visualize the UI/UX layouts
+3. `/scope-pipeline:task` - Break down into implementation tasks
+4. `/scope-pipeline:exec` - Execute the implementation
 
 $ARGUMENTS

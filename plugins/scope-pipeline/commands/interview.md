@@ -23,12 +23,12 @@ Use this command when:
 - You want a documented requirements baseline to plan against
 - The feature is complex and touches multiple parts of the system
 
-The agent produces a structured requirements document that feeds directly into `/scope:plan`.
+The agent produces a structured requirements document that feeds directly into `/scope-pipeline:plan`.
 
 **Recommended workflow**:
-1. `/scope:interview` - Gather and document requirements
-2. `/scope:brainstorm` - Explore approaches (optional)
-3. `/scope:plan` - Create the implementation plan
-4. `/scope:full` or individual phases - Complete the pipeline
+1. `/scope-pipeline:interview` - Gather and document requirements
+2. `/scope-pipeline:brainstorm` - Explore approaches (optional)
+3. `/scope-pipeline:plan` - Create the implementation plan
+4. `/scope-pipeline:full` or individual phases - Complete the pipeline
 
 $ARGUMENTS

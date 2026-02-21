@@ -26,7 +26,7 @@ This agent will:
 
 Use this command when:
 
-- You have completed the `/scope:plan` phase and want to ensure robustness
+- You have completed the `/scope-pipeline:plan` phase and want to ensure robustness
 - You need to identify potential failure points before implementation
 - You want to prioritize which edge cases to handle first
 - You need a testing checklist for QA
@@ -34,10 +34,10 @@ Use this command when:
 The agent creates comprehensive edge case documentation that helps prevent bugs, improve error handling, and ensure a robust user experience.
 
 **Recommended workflow**:
-1. `/scope:plan` - Create the implementation plan
-2. `/scope:ui` - Visualize the UI/UX layouts
-3. `/scope:edge` - Identify edge cases and solutions
-4. `/scope:task` - Break down into implementation tasks
-5. `/scope:exec` - Execute the implementation
+1. `/scope-pipeline:plan` - Create the implementation plan
+2. `/scope-pipeline:ui` - Visualize the UI/UX layouts
+3. `/scope-pipeline:edge` - Identify edge cases and solutions
+4. `/scope-pipeline:task` - Break down into implementation tasks
+5. `/scope-pipeline:exec` - Execute the implementation
 
 $ARGUMENTS

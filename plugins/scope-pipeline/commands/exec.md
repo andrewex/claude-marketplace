@@ -17,7 +17,7 @@ This agent will:
 
 Use this command when:
 
-- You have completed `/scope:plan` and `/scope:task` for a feature
+- You have completed `/scope-pipeline:plan` and `/scope-pipeline:task` for a feature
 - You want to start implementing a planned feature
 - You need to resume work on a partially completed feature
 - You want systematic, phase-by-phase implementation with progress tracking

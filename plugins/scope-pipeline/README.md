@@ -23,49 +23,49 @@ Scope Pipeline provides 11 slash commands and 11 specialized agents that guide y
 
 | Command | Description |
 |---------|-------------|
-| `/scope:interview` | Gather requirements through structured interview questions |
-| `/scope:brainstorm` | Explore ideas and approaches before committing to a plan |
-| `/scope:plan` | Create a detailed implementation plan |
-| `/scope:db` | Design database schema with tables, indexes, migrations |
-| `/scope:api` | Design REST API endpoints with schemas and examples |
-| `/scope:ui` | Create ASCII wireframes for all pages and components |
-| `/scope:edge` | Identify edge cases across 8 categories with solutions |
-| `/scope:test` | Create test plans with E2E, unit, and integration tests |
-| `/scope:task` | Break plans into phased, atomic implementation tasks |
-| `/scope:exec` | Execute the implementation phase by phase |
-| `/scope:full` | Run the entire pipeline (all 7 planning phases) |
+| `/scope-pipeline:interview` | Gather requirements through structured interview questions |
+| `/scope-pipeline:brainstorm` | Explore ideas and approaches before committing to a plan |
+| `/scope-pipeline:plan` | Create a detailed implementation plan |
+| `/scope-pipeline:db` | Design database schema with tables, indexes, migrations |
+| `/scope-pipeline:api` | Design REST API endpoints with schemas and examples |
+| `/scope-pipeline:ui` | Create ASCII wireframes for all pages and components |
+| `/scope-pipeline:edge` | Identify edge cases across 8 categories with solutions |
+| `/scope-pipeline:test` | Create test plans with E2E, unit, and integration tests |
+| `/scope-pipeline:task` | Break plans into phased, atomic implementation tasks |
+| `/scope-pipeline:exec` | Execute the implementation phase by phase |
+| `/scope-pipeline:full` | Run the entire pipeline (all 7 planning phases) |
 
 ## Typical Workflow
 
 ### Full Pipeline (recommended for complex features)
 
 ```
-/scope:interview my-feature-name   # Optional: gather requirements first
-/scope:full my-feature-name        # Run all 7 planning phases
-/scope:exec my-feature-name        # Execute the implementation
+/scope-pipeline:interview my-feature-name   # Optional: gather requirements first
+/scope-pipeline:full my-feature-name        # Run all 7 planning phases
+/scope-pipeline:exec my-feature-name        # Execute the implementation
 ```
 
 ### Step-by-Step (for more control)
 
 ```
-/scope:interview my-feature  # Optional: gather requirements
-/scope:brainstorm my-feature # Optional: explore approaches
-/scope:plan my-feature       # Create implementation plan
-/scope:db my-feature         # Design database schema
-/scope:api my-feature        # Design API endpoints
-/scope:ui my-feature         # Create wireframes
-/scope:edge my-feature       # Identify edge cases
-/scope:test my-feature       # Create test plan
-/scope:task my-feature       # Break into implementation tasks
-/scope:exec my-feature       # Execute implementation
+/scope-pipeline:interview my-feature  # Optional: gather requirements
+/scope-pipeline:brainstorm my-feature # Optional: explore approaches
+/scope-pipeline:plan my-feature       # Create implementation plan
+/scope-pipeline:db my-feature         # Design database schema
+/scope-pipeline:api my-feature        # Design API endpoints
+/scope-pipeline:ui my-feature         # Create wireframes
+/scope-pipeline:edge my-feature       # Identify edge cases
+/scope-pipeline:test my-feature       # Create test plan
+/scope-pipeline:task my-feature       # Break into implementation tasks
+/scope-pipeline:exec my-feature       # Execute implementation
 ```
 
 ### Minimal Pipeline (for simpler features)
 
 ```
-/scope:plan my-feature       # Plan it
-/scope:task my-feature       # Break into tasks
-/scope:exec my-feature       # Build it
+/scope-pipeline:plan my-feature       # Plan it
+/scope-pipeline:task my-feature       # Break into tasks
+/scope-pipeline:exec my-feature       # Build it
 ```
 
 ## How It Works
@@ -118,7 +118,7 @@ This directory is created automatically. Each phase adds its document to the sam
 
 ## Resuming Work
 
-The executor agent (`/scope:exec`) supports resume. If interrupted, run it again and it will:
+The executor agent (`/scope-pipeline:exec`) supports resume. If interrupted, run it again and it will:
 
 1. Read the tasks.md file
 2. Identify which phases are already marked complete

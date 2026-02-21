@@ -224,7 +224,7 @@ Create `.claude/scope/{feature-name}/requirements.md`:
 
 ## Next Steps
 
-1. Run `/scope:plan {feature-name}` to create the implementation plan
+1. Run `/scope-pipeline:plan {feature-name}` to create the implementation plan
 2. {Any other recommended steps}
 ```
 

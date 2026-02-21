@@ -201,7 +201,7 @@ After all 7 phases, provide a summary:
 - {N} test scenarios
 - {N} implementation tasks across {N} phases
 
-**Next step**: Run `/scope:exec {feature-name}` to begin implementation.
+**Next step**: Run `/scope-pipeline:exec {feature-name}` to begin implementation.
 ```
 
 ## Important Guidelines

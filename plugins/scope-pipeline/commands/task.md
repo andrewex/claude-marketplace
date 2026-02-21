@@ -17,7 +17,7 @@ This agent will:
 
 Use this command when:
 
-- You have completed the `/scope:plan` phase for a feature
+- You have completed the `/scope-pipeline:plan` phase for a feature
 - You want to convert high-level plans into developer-ready tasks
 - You need a structured implementation roadmap with checkboxes
 - You're ready to start implementation and want organized work items

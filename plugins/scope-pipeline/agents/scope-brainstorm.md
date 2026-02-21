@@ -206,7 +206,7 @@ If {condition}, consider {alternative approach} because {reason}.
 ## Next Steps
 
 1. Review this brainstorm and make key decisions
-2. Run `/scope:plan {feature-name}` to create detailed implementation plan
+2. Run `/scope-pipeline:plan {feature-name}` to create detailed implementation plan
 3. {Any other recommended steps}
 
 ---

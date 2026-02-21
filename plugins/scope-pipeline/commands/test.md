@@ -35,13 +35,13 @@ The agent creates comprehensive test documentation including:
 - Acceptance criteria (P0, P1, P2)
 
 **Recommended workflow**:
-1. `/scope:plan` - Create the implementation plan
-2. `/scope:db` - Design the database schema
-3. `/scope:api` - Design API endpoints
-4. `/scope:ui` - Visualize the UI/UX layouts
-5. `/scope:edge` - Identify edge cases
-6. `/scope:test` - Create test plan
-7. `/scope:task` - Break down into tasks
-8. `/scope:exec` - Execute implementation
+1. `/scope-pipeline:plan` - Create the implementation plan
+2. `/scope-pipeline:db` - Design the database schema
+3. `/scope-pipeline:api` - Design API endpoints
+4. `/scope-pipeline:ui` - Visualize the UI/UX layouts
+5. `/scope-pipeline:edge` - Identify edge cases
+6. `/scope-pipeline:test` - Create test plan
+7. `/scope-pipeline:task` - Break down into tasks
+8. `/scope-pipeline:exec` - Execute implementation
 
 $ARGUMENTS

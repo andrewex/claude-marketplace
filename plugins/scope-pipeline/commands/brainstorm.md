@@ -28,11 +28,11 @@ Use this command when:
 The agent creates a brainstorm document that serves as the foundation for informed planning decisions.
 
 **Recommended workflow**:
-1. `/scope:brainstorm` - Generate ideas and explore approaches (optional)
-2. `/scope:plan` - Create the implementation plan
-3. `/scope:ui` - Visualize the UI/UX layouts
-4. `/scope:edge` - Identify edge cases and solutions
-5. `/scope:task` - Break down into implementation tasks
-6. `/scope:exec` - Execute the implementation
+1. `/scope-pipeline:brainstorm` - Generate ideas and explore approaches (optional)
+2. `/scope-pipeline:plan` - Create the implementation plan
+3. `/scope-pipeline:ui` - Visualize the UI/UX layouts
+4. `/scope-pipeline:edge` - Identify edge cases and solutions
+5. `/scope-pipeline:task` - Break down into implementation tasks
+6. `/scope-pipeline:exec` - Execute the implementation
 
 $ARGUMENTS

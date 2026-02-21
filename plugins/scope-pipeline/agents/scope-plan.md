@@ -251,13 +251,13 @@ Create `.claude/scope/{feature-name}/plan.md`:
 
 ## Next Steps
 
-1. Run `/scope:db {feature-name}` for detailed database design
-2. Run `/scope:api {feature-name}` for detailed API specification
-3. Run `/scope:ui {feature-name}` for wireframes
-4. Run `/scope:edge {feature-name}` for edge case analysis
-5. Run `/scope:test {feature-name}` for test plan
-6. Run `/scope:task {feature-name}` for task breakdown
-7. Run `/scope:exec {feature-name}` to begin implementation
+1. Run `/scope-pipeline:db {feature-name}` for detailed database design
+2. Run `/scope-pipeline:api {feature-name}` for detailed API specification
+3. Run `/scope-pipeline:ui {feature-name}` for wireframes
+4. Run `/scope-pipeline:edge {feature-name}` for edge case analysis
+5. Run `/scope-pipeline:test {feature-name}` for test plan
+6. Run `/scope-pipeline:task {feature-name}` for task breakdown
+7. Run `/scope-pipeline:exec {feature-name}` to begin implementation
 ```
 
 ## Quality Standards
