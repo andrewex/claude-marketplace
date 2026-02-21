@@ -1,0 +1,26 @@
+{
+  "name": "scope-pipeline",
+  "version": "1.0.0",
+  "description": "A structured feature development pipeline with brainstorming, planning, database design, API design, UI wireframing, edge case analysis, test planning, task breakdown, and execution agents",
+  "author": {
+    "name": "Andrew Ex",
+    "url": "https://github.com/andrewex"
+  },
+  "repository": "https://github.com/andrewex/claude-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "scope",
+    "planning",
+    "feature-development",
+    "pipeline",
+    "architecture",
+    "design",
+    "project-management",
+    "task-breakdown",
+    "api-design",
+    "database-design",
+    "wireframes",
+    "edge-cases",
+    "testing"
+  ]
+}

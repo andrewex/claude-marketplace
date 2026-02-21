@@ -1,0 +1,42 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "andrewex-marketplace",
+  "description": "A curated collection of Claude Code plugins for structured development workflows",
+  "owner": {
+    "name": "Andrew Ex"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "scope-pipeline",
+      "source": "./plugins/scope-pipeline",
+      "description": "A structured feature development pipeline — brainstorm, plan, design database/API/UI, analyze edge cases, create test plans, break into tasks, and execute implementation",
+      "version": "1.0.0",
+      "license": "MIT",
+      "keywords": [
+        "scope",
+        "planning",
+        "feature-development",
+        "pipeline",
+        "architecture",
+        "project-management"
+      ],
+      "category": "development",
+      "tags": [
+        "planning",
+        "architecture",
+        "workflow",
+        "project-management",
+        "feature-development",
+        "database-design",
+        "api-design",
+        "wireframes",
+        "testing",
+        "task-management"
+      ]
+    }
+  ]
+}
