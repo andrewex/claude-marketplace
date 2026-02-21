@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "andrewex-marketplace",
+  "name": "andrewex",
   "description": "A curated collection of Claude Code plugins for structured development workflows",
   "owner": {
     "name": "Andrew Ex"

@@ -85,7 +85,7 @@ The agents are project-agnostic. They work with any tech stack by discovering yo
 
 ```
 /plugin marketplace add andrewex/claude-marketplace
-/plugin install scope-pipeline@andrewex-marketplace
+/plugin install scope-pipeline@andrewex
 ```
 
 ### Local Development

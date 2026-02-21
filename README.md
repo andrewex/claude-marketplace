@@ -19,13 +19,13 @@ A collection of Claude Code plugins for structured development workflows.
 ### Install a Plugin
 
 ```
-/plugin install scope-pipeline@andrewex-marketplace
+/plugin install scope-pipeline@andrewex
 ```
 
 ### Update Plugins
 
 ```
-/plugin update scope-pipeline@andrewex-marketplace
+/plugin update scope-pipeline@andrewex
 ```
 
 ## Local Development
